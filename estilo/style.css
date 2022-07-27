@@ -186,6 +186,17 @@ aside h3 {
 aside > ul {
     list-style-position: inside;
     columns: 2;
+    column-width: 40px;
+    align-items: baseline;
+    padding-right: 10px;
+}
+ul > li {
+    column-width: auto;
+    padding-right: -20px;
+    text-align: initial;
+}
+li {
+    padding: 0px;
 }
 footer {
     text-align: center;
